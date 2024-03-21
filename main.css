@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make the list items display horizontally */
+}
+
+nav ul li {
+    margin-right: 280px; /* Add space between list items */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+    padding-right: 0; /* Remove margin from the last list item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:blue;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    border: 12px solid red;
+    margin-top: 30px;
+}
+
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
